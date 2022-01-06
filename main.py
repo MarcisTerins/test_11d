@@ -5,7 +5,7 @@ Atbildi izvadīt veselos procentos."""
 
 x=float(input("Ievadi kvadrāta malu(>5cm): "))
 y=x+5
-s=x*2
-s1=y*2
+s=x*x
+s1=y*y
 procenti=(s1-s)/s*100
 print(procenti,"%")
